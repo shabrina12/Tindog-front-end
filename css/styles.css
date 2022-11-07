@@ -1,0 +1,132 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+h1, h3 {
+  font-weight: 900;
+}
+.big-heading { /*Buat heading tittle dan heading cta*/
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+p {
+  color: #8f8f8f;
+}
+.white-text{
+  color: white;
+}
+
+/*-------------TITLE SECTION--------------*/
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+}
+.container-fluid {
+  padding: 3% 15% 7%; /*top right&left bottom*/
+}
+/*----------NAVIGATION BAR---------------*/
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family:"Montserrat";
+  font-weight: 300;
+}
+/*---------Download Button---------*/
+.download-btn {
+  margin: 5% 3% 5% 0; /*top right left bottom*/
+}
+/*--------- Title Image Dog--------- */
+.div-for-img-title {
+  position: relative;
+}
+.img-dog-title {
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 20%;
+}
+/*-------------- FEATURES SECTION -------------*/
+#features {
+  padding: 7% 10%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.feature-box {
+  padding: 4% 2%;
+}
+.feature-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.feature-icon:hover {
+  color: #ff4c68;
+}
+/*--------------- TESTIMONIALS SECTION --------------*/
+#testimonials {
+  background-color: #ef8172;
+}
+.testimonials-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item {
+  padding: 7% 14%;
+}
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/*-------------- PRICING SECTION ---------------*/
+#pricing {
+  padding: 100px;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+/*-------------- CALL OF ACTION SECTION -------------*/
+#cta {
+  background-color: #ff4c68;
+  padding: 6% 15%;
+}
+/*------------- FOOTER SECTION ---------------*/
+#footer {
+  margin: 4% 5%;
+}
+.icon-footer {
+  color: black;
+  padding: 0 10px 20px;
+}
+.icon-footer:hover{
+  color: #ff4c68;
+}
+/*---------------- RESPONSIVE WEBSITE ----------------*/
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+  .img-dog-title {
+    position: static;
+    transform: rotate(0);
+  }
+}
