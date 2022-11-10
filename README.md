@@ -2,4 +2,4 @@
 
 Deployed website on https://shabrina12.github.io/Tindog-front-end/
 
-![Design preview for the Tindog page](./images/tindog1.png)
+![Design preview for the Tindog page](./images/tindog.png)
